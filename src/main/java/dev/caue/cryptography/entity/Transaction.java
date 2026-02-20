@@ -1,4 +1,4 @@
-package dev.caue.cryptography.domain.entity;
+package dev.caue.cryptography.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
