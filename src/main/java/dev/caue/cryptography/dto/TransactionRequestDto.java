@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class TransactionResponseDto {
+public class TransactionRequestDto {
     private Long id;
     private String userDocument;
     private String creditCardToken;
