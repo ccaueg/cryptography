@@ -61,6 +61,11 @@
             <version>1.9.3</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>annotationProcessor</scope>
+        </dependency>
     </dependencies>
 
     <build>

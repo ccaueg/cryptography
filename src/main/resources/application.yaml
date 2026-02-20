@@ -19,3 +19,9 @@ spring:
 
 server:
   port: 5050
+
+jasypt:
+  encryptor:
+    password: secret-key
+    algorithm: PBEWithMD5AndDES
+    iv-generator-classname: org.jasypt.iv.NoIvGenerator
